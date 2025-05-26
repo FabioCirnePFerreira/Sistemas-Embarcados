@@ -1,0 +1,37 @@
+Comentário:
+
+* // tudo que vai após "//" não é compilado
+
+  /*
+    Tudo que está entre /* e */
+     não é comentado
+     */
+
+
+
+     Serial.begin(9600)
+                |----|
+                  |
+                  |
+                  V
+                 Velocidade de
+                 comunicação(bps)
+     
+     Serial.avaliable[]
+    |------------------|
+            |
+            0 -> Sem nada
+            1 -> Recebeu um dado
+
+
+
+	Tipos de variável:
+	bool------------> ocupa 1 bit (0 ou 1)
+	char------------> 8 bits (-128 à 127)
+byte <- unsigned char---> 8 bits (0 à 127)
+	int-------------> 16 bits (-32768 à 32767)
+	unsigned int----> 16 bits (0 à 65535)
+	long------------> 32 bits
+	float-----------> 32 bits -> ponto flutuante
+	  |
+	  --> Para nº com vírgula
